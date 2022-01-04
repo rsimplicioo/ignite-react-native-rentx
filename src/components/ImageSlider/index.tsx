@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import { FlatList, ViewToken } from 'react-native';
 
 import {
  Container,
@@ -12,22 +13,48 @@ interface Props{
   imagesUrl: string[];
 }
 
+interface ChangeImageProps {
+  viewableItems: ViewToken[];
+  changed: ViewToken[];
+}
+
 export function ImageSlider({imagesUrl}: Props){
+  const [imageIdex, setImageIdex] = useState(0);
+
+  const indexChanged = useRef((info: ChangeImageProps) => {
+    const index = info.viewableItems[0].index!;
+    setImageIdex(index);
+  });
+
   return(
     <Container>
       <ImageIndexes>
-        <ImageIdex active={true} />
-        <ImageIdex active={false} />
-        <ImageIdex active={false} />
-        <ImageIdex active={false} />
+        {
+          imagesUrl.map((_, index) => (
+            <ImageIdex 
+              key={String(index)}
+              active={index === imageIdex} 
+            />
+          ))
+        }
       </ImageIndexes>
-
-      <CarImageWrapper>
-        <CarImage 
-          source={{ uri: imagesUrl[0] }}
-          resizeMode="contain"
-        />
-      </CarImageWrapper>
+      
+      <FlatList 
+        data={imagesUrl}
+        keyExtractor={key => key}
+        renderItem={({ item }) => (
+          <CarImageWrapper>
+            <CarImage 
+              source={{ uri: item }}
+              resizeMode="contain"
+            />
+          </CarImageWrapper>
+        )}
+        horizontal
+        showsHorizontalScrollIndicator={false}  
+        onViewableItemsChanged={indexChanged.current}
+      />
+      
     </Container>
   );
 }
