@@ -13,6 +13,8 @@ import { Bullet } from '../../../components/Bullet';
 import { PasswordInput } from '../../../components/PasswordInput';
 import { Button } from '../../../components/Button';
 
+import { api } from '../../../services/api';
+
 import {
  Container,
  Header,
@@ -39,13 +41,12 @@ export function SignUpSecondStep(){
   const theme = useTheme();
 
   const { user } = route.params as Params;
-  console.log(user);
 
   function handleBack() {
     navigation.goBack();
   }
 
-  function handleRegister() {
+  async function handleRegister() {
     if(!password || !passwordConfirm){
       return Alert.alert('Informe a senha e a confirmação');
     }
@@ -54,12 +55,24 @@ export function SignUpSecondStep(){
       return Alert.alert('As senhas não são iguais');
     }
 
-    navigation.navigate('Confirmation', { 
-      params: {
-        title: 'Conta Criada!', 
-        message: `Agora é só fazer o login\ne aproveitar`, 
-        nextScreenRoute: 'SignIn' 
-      }
+    await api.post('/users', {
+      name: user.name,
+      email: user.email,
+      driver_license: user.driverLicense,
+      password
+    })
+    .then(() => {
+      navigation.navigate('Confirmation', { 
+        params: {
+          title: 'Conta Criada!', 
+          message: `Agora é só fazer o login\ne aproveitar`, 
+          nextScreenRoute: 'SignIn' 
+        }
+      });
+    })
+    .catch((error) => {
+      console.log(error)
+      Alert.alert('Opa', 'Não foi possível cadastrar');
     });
   }
   

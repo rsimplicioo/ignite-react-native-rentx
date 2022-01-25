@@ -8,8 +8,9 @@ import {
   Keyboard,
   Alert
  } from 'react-native';
- import * as Yup from 'yup';
+import * as Yup from 'yup';
 
+import { useAuth } from '../../hooks/auth';
 
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
@@ -29,6 +30,7 @@ export function SignIn(){
   const [password, setPassword] = useState('');
 
   const navigation = useNavigation<any>();
+  const { signIn } = useAuth();
   const theme = useTheme();
 
   async function handleSignIn() {
@@ -41,7 +43,8 @@ export function SignIn(){
           .required('Senha é obrigatória')
       });
   
-      await schema.validate({ email, password })
+      await schema.validate({ email, password });
+      signIn({ email, password });
     } catch(error) {
       if(error instanceof Yup.ValidationError){
         Alert.alert('', error.message)
@@ -94,14 +97,13 @@ export function SignIn(){
               onChangeText={setPassword}
               value={password}
             />
-
           </Form>
 
           <Footer>
             <Button 
               title="Login"
               onPress={handleSignIn}
-              enabled={false}
+              enabled={true}
               loading={false}
             />
             <Button 
