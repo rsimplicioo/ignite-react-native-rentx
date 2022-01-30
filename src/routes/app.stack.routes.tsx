@@ -12,9 +12,9 @@ const { Navigator, Screen } = createStackNavigator();
 
 export function AppStackRoutes() {
   return(
-    <Navigator screenOptions={{ headerShown: false }} initialRouteName="Home">
+    <Navigator screenOptions={{ headerShown: false }} initialRouteName="HomeStack">
       <Screen 
-        name="Home"
+        name="HomeStack"
         component={Home}
       />
       <Screen 
