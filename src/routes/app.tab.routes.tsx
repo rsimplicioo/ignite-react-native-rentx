@@ -28,10 +28,10 @@ export function AppTabRoutes() {
           backgroundColor: theme.colors.background_primary
         }
       }} 
-      initialRouteName="Home"
+      initialRouteName="Start"
     >
       <Screen 
-        name="Home"
+        name="Start"
         component={AppStackRoutes}
         options={{
           tabBarIcon: ({ color }) => (
