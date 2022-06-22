@@ -13,7 +13,7 @@
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		5394C26F27B081430068C300 /* libWatermelonDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5394C26E27B081380068C300 /* libWatermelonDB.a */; };
 		5394C27127B081DE0068C300 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394C27027B081DE0068C300 /* File.swift */; };
-		96905EF65AED1B983A6B3ABC /* libPods-rentx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-rentx.a */; };
+		96905EF65AED1B983A6B3ABC /* libPods-challenge-stone-ton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-challenge-stone-ton.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 /* End PBXBuildFile section */
@@ -30,21 +30,21 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rentx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rentx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rentx/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rentx/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rentx/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rentx/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rentx/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* challenge-stone-ton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challenge-stone-ton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = challenge-stone-ton/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = challenge-stone-ton/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = challenge-stone-ton/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = challenge-stone-ton/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = challenge-stone-ton/main.m; sourceTree = "<group>"; };
 		5394C26927B081380068C300 /* WatermelonDB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WatermelonDB.xcodeproj; path = "../node_modules/@nozbe/watermelondb/native/ios/WatermelonDB.xcodeproj"; sourceTree = "<group>"; };
 		5394C27027B081DE0068C300 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-rentx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rentx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C2E3173556A471DD304B334 /* Pods-rentx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rentx.debug.xcconfig"; path = "Target Support Files/Pods-rentx/Pods-rentx.debug.xcconfig"; sourceTree = "<group>"; };
-		7A4D352CD337FB3A3BF06240 /* Pods-rentx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rentx.release.xcconfig"; path = "Target Support Files/Pods-rentx/Pods-rentx.release.xcconfig"; sourceTree = "<group>"; };
-		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = rentx/SplashScreen.storyboard; sourceTree = "<group>"; };
+		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-challenge-stone-ton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge-stone-ton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2E3173556A471DD304B334 /* Pods-challenge-stone-ton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge-stone-ton.debug.xcconfig"; path = "Target Support Files/Pods-challenge-stone-ton/Pods-challenge-stone-ton.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-challenge-stone-ton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge-stone-ton.release.xcconfig"; path = "Target Support Files/Pods-challenge-stone-ton/Pods-challenge-stone-ton.release.xcconfig"; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = challenge-stone-ton/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-rentx/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-challenge-stone-ton/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +53,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5394C26F27B081430068C300 /* libWatermelonDB.a in Frameworks */,
-				96905EF65AED1B983A6B3ABC /* libPods-rentx.a in Frameworks */,
+				96905EF65AED1B983A6B3ABC /* libPods-challenge-stone-ton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* rentx */ = {
+		13B07FAE1A68108700A75B9A /* challenge-stone-ton */ = {
 			isa = PBXGroup;
 			children = (
 				BB2F792B24A3F905000567C9 /* Supporting */,
@@ -72,7 +72,7 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 			);
-			name = rentx;
+			name = challenge-stone-ton;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -80,7 +80,7 @@
 			children = (
 				5394C26927B081380068C300 /* WatermelonDB.xcodeproj */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-rentx.a */,
+				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-challenge-stone-ton.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5394C27027B081DE0068C300 /* File.swift */,
-				13B07FAE1A68108700A75B9A /* rentx */,
+				13B07FAE1A68108700A75B9A /* challenge-stone-ton */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -119,17 +119,17 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rentx.app */,
+				13B07F961A680F5B00A75B9A /* challenge-stone-ton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92DBD88DE9BF7D494EA9DA96 /* rentx */ = {
+		92DBD88DE9BF7D494EA9DA96 /* challenge-stone-ton */ = {
 			isa = PBXGroup;
 			children = (
 				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
 			);
-			name = rentx;
+			name = challenge-stone-ton;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -138,14 +138,14 @@
 				BB2F792C24A3F905000567C9 /* Expo.plist */,
 			);
 			name = Supporting;
-			path = rentx/Supporting;
+			path = challenge-stone-ton/Supporting;
 			sourceTree = "<group>";
 		};
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C2E3173556A471DD304B334 /* Pods-rentx.debug.xcconfig */,
-				7A4D352CD337FB3A3BF06240 /* Pods-rentx.release.xcconfig */,
+				6C2E3173556A471DD304B334 /* Pods-challenge-stone-ton.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-challenge-stone-ton.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 		D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				92DBD88DE9BF7D494EA9DA96 /* rentx */,
+				92DBD88DE9BF7D494EA9DA96 /* challenge-stone-ton */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* rentx */ = {
+		13B07F861A680F5B00A75B9A /* challenge-stone-ton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rentx" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challenge-stone-ton" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -177,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = rentx;
-			productName = rentx;
-			productReference = 13B07F961A680F5B00A75B9A /* rentx.app */;
+			name = challenge-stone-ton;
+			productName = challenge-stone-ton;
+			productReference = 13B07F961A680F5B00A75B9A /* challenge-stone-ton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rentx" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challenge-stone-ton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,7 +214,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rentx */,
+				13B07F861A680F5B00A75B9A /* challenge-stone-ton */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rentx-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-challenge-stone-ton-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -285,7 +285,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rentx/Pods-rentx-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-challenge-stone-ton/Pods-challenge-stone-ton-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
@@ -298,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rentx/Pods-rentx-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challenge-stone-ton/Pods-challenge-stone-ton-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -339,7 +339,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-rentx.debug.xcconfig */;
+			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-challenge-stone-ton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -349,7 +349,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = rentx/Info.plist;
+				INFOPLIST_FILE = challenge-stone-ton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -357,8 +357,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.rentx;
-				PRODUCT_NAME = rentx;
+				PRODUCT_BUNDLE_IDENTIFIER = org.name.challenge-stone-ton;
+				PRODUCT_NAME = challenge-stone-ton;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -367,12 +367,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-rentx.release.xcconfig */;
+			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-challenge-stone-ton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rentx/Info.plist;
+				INFOPLIST_FILE = challenge-stone-ton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -380,8 +380,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.rentx;
-				PRODUCT_NAME = rentx;
+				PRODUCT_BUNDLE_IDENTIFIER = org.name.challenge-stone-ton;
+				PRODUCT_NAME = challenge-stone-ton;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -495,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rentx" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challenge-stone-ton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -504,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rentx" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challenge-stone-ton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

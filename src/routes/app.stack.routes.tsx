@@ -1,37 +1,30 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
+import { ShoppingCartIcon } from '../components/ShoppingCartIcon';
+
 import { Home } from '../screens/Home';
-import { CarDetails } from '../screens/CarDetails';
-import { Scheduling } from '../screens/Scheduling';
-import { SchedulingDetails } from '../screens/SchedulingDetails';
-import { Confirmation } from '../screens/Confirmation';
-import { MyCars } from '../screens/MyCars';
+import { ShoppingCart } from '../screens/ShoppingCart';
 
 const { Navigator, Screen } = createStackNavigator();
 
 export function AppStackRoutes() {
   return(
-    <Navigator screenOptions={{ headerShown: false }} initialRouteName="Home">
+    <Navigator initialRouteName="Home">
       <Screen 
         name="Home"
         component={Home}
+        options={{
+          headerTitle:"",
+          headerRight: (props) => <ShoppingCartIcon counterMarket={5} {...props} />
+        }}
       />
       <Screen 
-        name="CarDetails"
-        component={CarDetails}
-      />
-      <Screen 
-        name="Scheduling"
-        component={Scheduling}
-      />
-      <Screen 
-        name="SchedulingDetails"
-        component={SchedulingDetails}
-      />
-      <Screen 
-        name="Confirmation"
-        component={Confirmation}
+        name="ShoppingCart"
+        component={ShoppingCart}
+        options={{
+          headerTitle:""
+        }}
       />
     </Navigator>
   )

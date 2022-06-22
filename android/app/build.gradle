@@ -132,7 +132,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rentx"
+        applicationId "com.challenge-stone-ton"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

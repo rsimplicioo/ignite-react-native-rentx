@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 
-import { AuthProvider } from './auth';
+import { ShoppingCartProvider } from './shoppingCart';
 
 interface AppProviderProps {
   children: ReactNode;
@@ -8,9 +8,9 @@ interface AppProviderProps {
 
 function AppProvider({ children }: AppProviderProps) {
   return(
-    <AuthProvider>
-      { children }
-    </AuthProvider>
+    <ShoppingCartProvider>
+      {children}
+    </ShoppingCartProvider>
   )
 }
 

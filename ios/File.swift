@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  rentx
+//  challenge-stone-ton
 //
 //  Created by Rafael on 06/02/22.
 //
