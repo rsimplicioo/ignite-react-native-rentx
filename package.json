@@ -6,7 +6,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "start": "expo start",
+    "start": "react-native start",
     "api": "json-server ./src/services/server.json --host 192.168.1.72 --port 3333 --delay 700"
   },
   "dependencies": {
