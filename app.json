@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "challenge-stone-ton",
-    "slug": "challenge-stone-ton",
+    "name": "rentx",
+    "slug": "rentx",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
@@ -11,5 +11,5 @@
       "backgroundColor": "#1B1B1F"
     }
   },
-  "name": "challenge-stone-ton"
+  "name": "rentx"
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "challenge-stone-ton.app"
-               BlueprintName = "challenge-stone-ton"
-               ReferencedContainer = "container:challenge-stone-ton.xcodeproj">
+               BuildableName = "rentx.app"
+               BlueprintName = "rentx"
+               ReferencedContainer = "container:rentx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "challenge-stone-tonTests.xctest"
-               BlueprintName = "challenge-stone-tonTests"
-               ReferencedContainer = "container:challenge-stone-ton.xcodeproj">
+               BuildableName = "rentxTests.xctest"
+               BlueprintName = "rentxTests"
+               ReferencedContainer = "container:rentx.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "challenge-stone-ton.app"
-            BlueprintName = "challenge-stone-ton"
-            ReferencedContainer = "container:challenge-stone-ton.xcodeproj">
+            BuildableName = "rentx.app"
+            BlueprintName = "rentx"
+            ReferencedContainer = "container:rentx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "challenge-stone-ton.app"
-            BlueprintName = "challenge-stone-ton"
-            ReferencedContainer = "container:challenge-stone-ton.xcodeproj">
+            BuildableName = "rentx.app"
+            BlueprintName = "rentx"
+            ReferencedContainer = "container:rentx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

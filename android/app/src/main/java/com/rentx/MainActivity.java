@@ -1,4 +1,4 @@
-package com.challenge-stone-ton;
+package com.rentx;
 
 import android.os.Bundle;
 

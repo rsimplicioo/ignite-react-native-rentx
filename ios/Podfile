@@ -7,7 +7,7 @@ platform :ios, '12.0'
 require 'json'
 podfile_properties = JSON.parse(File.read('./Podfile.properties.json')) rescue {}
 
-target 'challenge-stone-ton' do
+target 'rentx' do
   use_expo_modules!
   config = use_native_modules!
 
@@ -15,8 +15,6 @@ target 'challenge-stone-ton' do
     :path => config[:reactNativePath],
     :hermes_enabled => podfile_properties['expo.jsEngine'] == 'hermes'
   )
-  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi', :modular_headers => true
-  pod 'simdjson', path: '../node_modules/@nozbe/simdjson'
 
   # Uncomment to opt-in to using Flipper
   #
